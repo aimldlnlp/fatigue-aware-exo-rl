@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "fatigue-aware-exo-rl"
+version = "0.1.0"
+description = "Lightweight reinforcement learning project for fatigue-aware assist-as-needed exoskeleton control."
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+  "numpy>=2.0",
+  "torch>=2.4",
+  "matplotlib>=3.8",
+  "imageio>=2.35",
+]
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
+

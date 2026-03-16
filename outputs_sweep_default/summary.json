@@ -1,0 +1,208 @@
+{
+  "base_config": "configs/default.json",
+  "episodes": 40,
+  "seeds": [
+    7,
+    11,
+    19
+  ],
+  "best_seed": 19,
+  "best_run_dir": "outputs_sweep_default/seed_19",
+  "seed_runs": [
+    {
+      "seed": 7,
+      "run_dir": "outputs_sweep_default/seed_7",
+      "metrics": {
+        "ppo_rl": {
+          "success_rate": 0.625,
+          "success_fraction": 0.03589726215297778,
+          "avg_distance": 0.5237174011070793,
+          "avg_human_effort": 0.2839574072329691,
+          "avg_assist_ratio": 0.16806789365934058,
+          "final_fatigue": 0.6505774082324386,
+          "time_to_target": 80.125
+        },
+        "zero_assist": {
+          "success_rate": 0.225,
+          "success_fraction": 0.01595933111162231,
+          "avg_distance": 0.6203452147094272,
+          "avg_human_effort": 0.28085907800014087,
+          "avg_assist_ratio": 0.0,
+          "final_fatigue": 0.665982430718115,
+          "time_to_target": 94.275
+        },
+        "fixed_assist": {
+          "success_rate": 0.575,
+          "success_fraction": 0.043261200551247034,
+          "avg_distance": 0.5503512982067541,
+          "avg_human_effort": 0.29113239220580267,
+          "avg_assist_ratio": 0.11009231656050156,
+          "final_fatigue": 0.6328188482275607,
+          "time_to_target": 78.375
+        },
+        "rule_based_fatigue": {
+          "success_rate": 0.75,
+          "success_fraction": 0.044479443958713685,
+          "avg_distance": 0.5447487510710826,
+          "avg_human_effort": 0.2852452929663323,
+          "avg_assist_ratio": 0.2715034332633663,
+          "final_fatigue": 0.6432606934641567,
+          "time_to_target": 68.75
+        }
+      },
+      "ppo_score": 1.2889309847403774
+    },
+    {
+      "seed": 11,
+      "run_dir": "outputs_sweep_default/seed_11",
+      "metrics": {
+        "ppo_rl": {
+          "success_rate": 0.425,
+          "success_fraction": 0.029820531870901206,
+          "avg_distance": 0.5045788918120819,
+          "avg_human_effort": 0.282774500177115,
+          "avg_assist_ratio": 0.11955347215013586,
+          "final_fatigue": 0.6431411322977741,
+          "time_to_target": 85.65
+        },
+        "zero_assist": {
+          "success_rate": 0.325,
+          "success_fraction": 0.02874733221220719,
+          "avg_distance": 0.6040905775779344,
+          "avg_human_effort": 0.29699955739606293,
+          "avg_assist_ratio": 0.0,
+          "final_fatigue": 0.657811333110909,
+          "time_to_target": 87.525
+        },
+        "fixed_assist": {
+          "success_rate": 0.45,
+          "success_fraction": 0.030849703319383703,
+          "avg_distance": 0.5420281703136842,
+          "avg_human_effort": 0.28915585070894884,
+          "avg_assist_ratio": 0.11081208809952425,
+          "final_fatigue": 0.6564330474811383,
+          "time_to_target": 87.65
+        },
+        "rule_based_fatigue": {
+          "success_rate": 0.675,
+          "success_fraction": 0.04579125928964423,
+          "avg_distance": 0.49135730780758946,
+          "avg_human_effort": 0.2905288269553231,
+          "avg_assist_ratio": 0.27259323519845735,
+          "final_fatigue": 0.6492363182236082,
+          "time_to_target": 72.825
+        }
+      },
+      "ppo_score": 0.8036502538134735
+    },
+    {
+      "seed": 19,
+      "run_dir": "outputs_sweep_default/seed_19",
+      "metrics": {
+        "ppo_rl": {
+          "success_rate": 0.725,
+          "success_fraction": 0.05330700403200863,
+          "avg_distance": 0.4943350079787111,
+          "avg_human_effort": 0.288041373738503,
+          "avg_assist_ratio": 0.13592093924952872,
+          "final_fatigue": 0.6118368044672843,
+          "time_to_target": 68.025
+        },
+        "zero_assist": {
+          "success_rate": 0.3,
+          "success_fraction": 0.013853766800575313,
+          "avg_distance": 0.5854507551957244,
+          "avg_human_effort": 0.2767590514991731,
+          "avg_assist_ratio": 0.0,
+          "final_fatigue": 0.6817505001325962,
+          "time_to_target": 90.175
+        },
+        "fixed_assist": {
+          "success_rate": 0.325,
+          "success_fraction": 0.025412410934670844,
+          "avg_distance": 0.5986291372526831,
+          "avg_human_effort": 0.28235347277464334,
+          "avg_assist_ratio": 0.11793007256614556,
+          "final_fatigue": 0.6622995515931566,
+          "time_to_target": 88.95
+        },
+        "rule_based_fatigue": {
+          "success_rate": 0.925,
+          "success_fraction": 0.05659376298192936,
+          "avg_distance": 0.48482186657005677,
+          "avg_human_effort": 0.29343302533365956,
+          "avg_assist_ratio": 0.2582348554497741,
+          "final_fatigue": 0.6352909687122539,
+          "time_to_target": 53.0
+        }
+      },
+      "ppo_score": 1.5579109258732933
+    }
+  ],
+  "aggregate": {
+    "ppo_rl": {
+      "success_rate": 0.5916666666666667,
+      "success_fraction": 0.03967493268529587,
+      "avg_distance": 0.5075437669659575,
+      "avg_human_effort": 0.284924427049529,
+      "avg_assist_ratio": 0.14118076835300172,
+      "final_fatigue": 0.6351851149991656,
+      "time_to_target": 77.93333333333334,
+      "success_rate_std": 0.1247219128924647,
+      "success_fraction_std": 0.009953447966464581,
+      "avg_distance_std": 0.012177140331951126,
+      "avg_human_effort_std": 0.0022563000350318127,
+      "avg_assist_ratio_std": 0.02015211527758319,
+      "final_fatigue_std": 0.016786547261899733,
+      "time_to_target_std": 7.3603762735942295
+    },
+    "zero_assist": {
+      "success_rate": 0.2833333333333334,
+      "success_fraction": 0.019520143374801603,
+      "avg_distance": 0.6032955158276954,
+      "avg_human_effort": 0.284872562298459,
+      "avg_assist_ratio": 0.0,
+      "final_fatigue": 0.6685147546538733,
+      "time_to_target": 90.65833333333335,
+      "success_rate_std": 0.04249182927993988,
+      "success_fraction_std": 0.006580988307128618,
+      "avg_distance_std": 0.0142566924303028,
+      "avg_human_effort_std": 0.008736916385855375,
+      "avg_assist_ratio_std": 0.0,
+      "final_fatigue_std": 0.009935808231166368,
+      "time_to_target_std": 2.776788712803975
+    },
+    "fixed_assist": {
+      "success_rate": 0.44999999999999996,
+      "success_fraction": 0.03317443826843386,
+      "avg_distance": 0.5636695352577071,
+      "avg_human_effort": 0.28754723856313164,
+      "avg_assist_ratio": 0.11294482574205712,
+      "final_fatigue": 0.6505171491006184,
+      "time_to_target": 84.99166666666667,
+      "success_rate_std": 0.10206207261596574,
+      "success_fraction_std": 0.007469855738531186,
+      "avg_distance_std": 0.02495260765553297,
+      "avg_human_effort_std": 0.003760149054798201,
+      "avg_assist_ratio_std": 0.003537327822892081,
+      "final_fatigue_std": 0.012741699467209768,
+      "time_to_target_std": 4.708694676399775
+    },
+    "rule_based_fatigue": {
+      "success_rate": 0.7833333333333333,
+      "success_fraction": 0.04895482207676243,
+      "avg_distance": 0.5069759751495763,
+      "avg_human_effort": 0.289735715085105,
+      "avg_assist_ratio": 0.2674438413038659,
+      "final_fatigue": 0.642595993466673,
+      "time_to_target": 64.85833333333333,
+      "success_rate_std": 0.10474837574980446,
+      "success_fraction_std": 0.005428030857201077,
+      "avg_distance_std": 0.026842316699005386,
+      "avg_human_effort_std": 0.003389347052039708,
+      "avg_assist_ratio_std": 0.006526917721256564,
+      "final_fatigue_std": 0.005712533752690863,
+      "time_to_target_std": 8.548546010222376
+    }
+  }
+}
