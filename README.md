@@ -128,7 +128,3 @@ Legacy aliases are still kept for compatibility:
 - No GUI dependency
 - CPU-compatible; uses GPU if available
 - All figures and videos generated directly from the evaluation pipeline
-# fatigue-aware-exo-rl
-# fatigue-aware-exo-rl
-# fatigue-aware-exo-rl
-# fatigue-aware-exo-rl
